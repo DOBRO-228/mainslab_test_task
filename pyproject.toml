@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mainslab_test_task"
+version = "0.1.0"
+description = "https://wiry-fenugreek-da7.notion.site/89b5505eaa1447b6a3a728208533c106"
+authors = ["Dobro <matematikaigor@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psycopg2 = "^2.9.3"
+Django = "^4.0.4"
+djangorestframework = "^3.13.1"
+python-dotenv = "^0.20.0"
+dj-database-url = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.10.1"
+wemake-python-styleguide = "^0.16.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
