@@ -11,6 +11,8 @@ Django = "^4.0.4"
 djangorestframework = "^3.13.1"
 python-dotenv = "^0.20.0"
 dj-database-url = "^0.5.0"
+pandas = "^1.4.2"
+openpyxl = "^3.0.9"
 
 [tool.poetry.dev-dependencies]
 isort = "^5.10.1"
